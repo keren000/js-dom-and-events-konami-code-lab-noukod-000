@@ -10,10 +10,10 @@ function init() {
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
 
-    if (key === code[index]) {
+    if (key === al[index]) {
       index++;
 
-      if (index === code.length) {
+      if (index === al.length) {
         alert("Hurray!");
 
         index = 0;
