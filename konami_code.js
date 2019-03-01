@@ -19,5 +19,5 @@ function onKeyDownHandler(e) {
     } else {
       index = 0;
     }
-  });
+  }
 }
